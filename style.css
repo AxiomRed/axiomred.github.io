@@ -21,9 +21,15 @@ header, footer {
     margin-bottom: 2em;
 }
 
-    #imagen1{
+#cont-imagen1{
     width: 100%;
-    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#imagen1 {
+    margin-right: 250px;
 }
 
 #separacion{
@@ -41,7 +47,25 @@ header, footer {
     text-align: center;
 }
 
-#imagen2{
+#img-hobbies {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
     width: 100%;
-    float: left;
+    margin-top: 10px;
 }
+
+#imagen2 {
+    width: 100%;
+}
+
+#imagen3 {
+    width: 100%;
+}
+
+#iframe {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
